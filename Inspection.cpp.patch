@@ -1,0 +1,10 @@
+--- a/src/capstone-edb/Inspection.cpp	2026-09-04 17:12:39.972014636 -0500
++++ a/src/capstone-edb/Inspection.cpp	2026-09-04 17:13:37.648016690 -0500
+@@ -25,7 +25,6 @@
+ 	switch (insn.operation()) {
+ 	case X86_INS_UD0:
+ 	case X86_INS_UD2:
+-	case X86_INS_UD2B:
+ 		return true;
+ 	default:
+ 		return false;
